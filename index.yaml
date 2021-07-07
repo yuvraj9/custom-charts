@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.21.0
+    created: "2021-07-07T13:50:57.593067+05:30"
+    description: Chart for the nginx server
+    digest: b4b9df71e0f720dcfa8416f8c9476bf1520eefae733a67d26a18bb802b511752
+    keywords:
+    - nginx
+    maintainers:
+    - email: shekhawatyuvraj1998@gmail.com
+      name: Nginx
+    name: nginx
+    sources:
+    - https://hub.docker.com/_/nginx
+    - http://www.nginx.org
+    urls:
+    - https://yuvraj9.github.io/custom-charts/nginx-9.3.4.tgz
+    version: 9.3.4
+generated: "2021-07-07T13:50:57.591239+05:30"
