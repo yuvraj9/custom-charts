@@ -17,7 +17,7 @@ Thats it now you can find the chart in nginx folder and customize it
 
 
 ## Changing configuration
-- Changing configuration of nginx server is easy on this chart. Nginx configuration is attached as a configmap. To make changes you just need to update it in ```values.yaml``` file of this chart. In values file file there is a default configuration which I have applied in ```serverBlock``` so you need to update it for any configuration changes.
+- Nginx configurations are used by the nginx pod through configmap - ```nginx-server-block```. To make changes you need to update it in ```values.yaml``` file of this chart otherwise it uses default values.
 
 ## Changing static site
-- Right now static site has a default html present. This is also attached as a configmap so you just have to update the ```staticSite``` in values file to any new changes.
+- Right now static site has a default html present and this is also a part of configmap, so you can update the ```staticSite``` in values file to make new changes.
